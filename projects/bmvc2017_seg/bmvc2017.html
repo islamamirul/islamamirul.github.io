@@ -1,0 +1,142 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    a {
+    color: #1772d0;
+    text-decoration:none;
+    }
+    a:focus, a:hover {
+    color: #f09228;
+    text-decoration:none;
+    }
+    body,td,th,tr,p,a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px
+    }
+    strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    }
+    heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    }
+    papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700
+    }
+    name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+    }
+    .one
+    {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    }
+    .two
+    {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    }
+    .fade {
+     transition: opacity .2s ease-in-out;
+     -moz-transition: opacity .2s ease-in-out;
+     -webkit-transition: opacity .2s ease-in-out;
+    }
+    span.highlight {
+        background-color: #ffffd0;
+    }
+      </style>
+    
+
+<title align="center">Salient Object Detection using a Context-Aware Refinement Network</title>
+
+</head>
+
+<body>
+<h1 align="center">Salient Object Detection using a Context-Aware Refinement Network</h1>
+<h3 align="center"><a href="http://www.cs.umanitoba.ca/~amirul/">Md Amirul Islam</a> &nbsp; &nbsp; &nbsp; <a href="">Mahmoud Kalash</a> &nbsp; &nbsp; &nbsp; <a href="http://www.cs.umanitoba.ca/~mrochan/">Mrigank Rochan</a> &nbsp; &nbsp; &nbsp; <a href="http://www.cs.umanitoba.ca/~bruce/">Neil Bruce</a> &nbsp; &nbsp; &nbsp; <a href="http://www.cs.umanitoba.ca/~ywang/">Yang Wang</a> </h3>    
+
+<p style="text-align: center;">
+<img src="http://www.cs.umanitoba.ca/~amirul/projects/bmvc2017_seg/bmvc2017_files/bmvc2017.png" height="266">
+</p>
+
+<h4 align="center">Abstract</h4>
+<p>
+ Recently there has been remarkable success in pushing the state of the art in salient object detection. Most of the improvements are driven by employing end-to-end deeper feed-forward networks. However, in many cases precisely detecting salient regions requires representation of fine details. Combining high-level and low-level features using skip connections is a strategy that has been proposed, but sometimes fails to select the right contextual features. To overcome this limitation, we propose an end-toend encoder-decoder network that employs recurrent refinement to generate a saliency map in a coarse-to-fine fashion by incorporating finer details in the detection framework. The proposed approach makes use of refinement units within each stage of the decoder
+that are responsible for refining the saliency map produced by earlier layers by learning context-aware features. Experimental results on several challenging saliency detection benchmarks validate the effectiveness of our proposed architecture providing a significant improvement over current state-of-the-art methods.
+
+<br><br>
+    
+</p>
+
+<hr>
+
+<h4 align="center">Publication</h4>
+<p>
+        </p><p><a href="https://www.semanticscholar.org/paper/Salient-Object-Detection-using-a-Context-Aware-Ref-Islam-Kalash/6ea95eac428a9cbdffe181aff35ed75104f5d06d">
+        <papertitle>Salient Object Detection using a Context-Aware Refinement Network</papertitle></a><br>
+        <strong>Md Amirul Islam</strong>,
+	<a href="">Mahmoud Kalash</a>, 
+        <a href="http://www.cs.umanitoba.ca/~mrochan/">Mrigank Rochan</a>, 
+        <a href="http://www.cs.umanitoba.ca/~bruce/">Neil D. B. Bruce</a>, 
+        <a href="http://www.cs.umanitoba.ca/~ywang/">Yang Wang</a> <br>
+        <em>British Machine Vision Conference (BMVC)</em>, 2017  &nbsp; <font color="red"></font> <br>
+        [<a href='http://www.cs.umanitoba.ca/~ywang/papers/bmvc17_detection.pdf'>pdf</a>] &nbsp;
+	[<a href='https://www.dropbox.com/s/dodrgirf16cx37j/BMVC%202017_salient_detect.pdf?dl=0'>poster</a>] &nbsp; 
+        </p><p></p> 
+
+<br>
+
+
+<hr>
+
+<h4 align="center">Bibtex</h4>
+
+@inproceedings{Islam2017SalientOD,
+  title={Salient Object Detection using a Context-Aware Refinement Network},
+  author={Md Amirul Islam and Mahmoud Kalash and Mrigank Rochan and Yang Wang},
+  year={2017}
+}
+
+<p>
+<tt>
+ @inproceedings{Islam2017SalientOD,<br>
+  &nbsp;Author = {Md Amirul Islam and Mahmoud Kalash and Mrigank Rochan and Neil D. B. Bruce and Yang Wang},<br>
+  &nbsp;Title = {Salient Object Detection using a Context-Aware Refinement Network},<br>
+  &nbsp;Booktitle = {The 28th British Machine Vision Conference (BMVC)},<br>
+  &nbsp;Year = {2017}}
+</tt>
+</p>
+
+<hr>
+
+<h4 align="center">Contact</h4>
+<p>
+For any questions regarding this work, please contact the corresponding author at amirul@cs.umanitoba.ca
+</p>
+
+<script async="" src="bmvc2017_files/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-97485241-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+</body></html>
